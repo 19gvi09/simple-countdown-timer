@@ -1,0 +1,34 @@
+/* Timer styles */
+.timer {
+    display: flex;
+}
+  
+.timer__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 .2em 0;
+}
+  
+.timer__nums {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .2125em .325em;
+    border-radius: .0625em;
+    background-color: hsl(236, 21%, 26%);
+    box-shadow: 0 .125em .05em #000;
+}
+  
+.timer__num {
+    letter-spacing: -.03em;
+    line-height: 1.325em;
+    color: hsl(345, 95%, 68%);
+}
+  
+.timer__text {
+    font-size: .175em;
+    letter-spacing: .43em;
+    margin: 2em 0 0;
+}

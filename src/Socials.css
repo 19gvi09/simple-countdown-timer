@@ -1,0 +1,18 @@
+.socials {
+    display: flex;
+    margin: 31.375vh 0 9vh;
+    height: 3vh;
+}
+  
+.socials__link {
+    margin-right: .4em;
+    display: flex;
+}
+  
+.socials__link:last-child {
+    margin-right: 0;
+}
+
+.socials__icon {
+    height: 3vh;
+}

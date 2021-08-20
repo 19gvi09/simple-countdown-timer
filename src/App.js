@@ -1,25 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Timer from './Timer';
+import Socials from './Socials'
 
 function App() {
+  // Set time
+  const time = {dd: 1,hh: 0, mm: 0,ss: 0};
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className="header">WE'RE LAUNCHING SOON</h1>
+      <Timer time={time}/>
+      <Socials/>
     </div>
   );
-}
+};
 
 export default App;
